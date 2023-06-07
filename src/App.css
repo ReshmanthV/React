@@ -1,0 +1,79 @@
+.sidebar {
+  background-color: #354a5f;
+  padding: 10px;
+  width: 150px;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f1f1f1;  
+  /* background-image: url("https://cdn.pixabay.com/photo/2020/05/25/19/32/facade-5220194_1280.jpg"); */
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 80vh;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.Cardfornoofusers {
+  background: #DDE6ED;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 200px;
+  height: 50px;
+}
+
+.card {
+  background: #DDE6ED;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 200px;
+  height: 100px;
+}
+
+.big-card {
+  background: #DDE6ED;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 350px;
+  height: 200px;
+}
+
+.card-name {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card-phone {
+  font-size: 16px;
+  color: #777;
+}
+
+.search_bar {
+  display: flex;
+  position: fixed;
+  top: 20px;
+}
+
+.search-input {
+  height: 15px;
+  margin-top: 40px;
+}
